@@ -1,0 +1,15 @@
+# Build folders
+cmake-build*
+build*
+lib/*
+
+# JS libraries
+node_modules
+
+# IDE files
+.idea
+.vs
+.vscode
+
+# OS files
+.DS_Store
