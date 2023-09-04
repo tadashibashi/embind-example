@@ -2,11 +2,8 @@
 // the Emscripten module information
 import Module from "./lib/embind_test/embind_test";
 
-const M = Module as typeof Module & EmscriptenModule;
-
-
 // Wait until module has been initialized to...
-M.onRuntimeInitialized = function() {
+(Module as typeof Module & EmscriptenModule).onRuntimeInitialized = function() {
 
     // Instantiate C++ class
     const myClass = new Module.MyClass("hello world!", 0);
