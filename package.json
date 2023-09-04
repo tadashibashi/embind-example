@@ -1,13 +1,11 @@
 {
   "name": "embind-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimal working example of using embind to wrap C++ code into JavaScript",
   "scripts": {
-    "start": "ts-node main.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node main.ts"
   },
-  "author": "",
+  "author": "Aaron Ishibashi",
   "license": "ISC",
   "devDependencies": {
     "@types/emscripten": "^1.39.7",
